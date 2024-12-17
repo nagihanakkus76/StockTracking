@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace StokTakip.BusinessLayer.Dtos.Product.Requests
+{
+    public class InsertProductRequest
+    {
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public int AmountOfStock { get; set; }
+    }
+}
